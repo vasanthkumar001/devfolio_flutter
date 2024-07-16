@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
 
 class Footer extends StatelessWidget {
-  const Footer({Key? key}) : super(key: key);
+  const Footer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class Footer extends StatelessWidget {
               "Developed in 💙 with ",
             ),
             InkWell(
-              onTap: () => openURL("https://github.com/mhmzdev/DevFolio"),
+              onTap: () => openURL("https://github.com/vasanthkumar001"),
               child: const Text(
                 "Flutter",
                 style: TextStyle(color: Colors.blue),

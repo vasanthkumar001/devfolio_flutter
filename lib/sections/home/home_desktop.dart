@@ -2,12 +2,11 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:folio/animations/entrance_fader.dart';
 import 'package:folio/configs/configs.dart';
-
 import 'package:folio/utils/utils.dart';
 import 'package:folio/widget/social_links.dart';
 
 class HomeDesktop extends StatelessWidget {
-  const HomeDesktop({Key? key}) : super(key: key);
+  const HomeDesktop({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -68,18 +67,21 @@ class HomeDesktop extends StatelessWidget {
                 ),
                 Space.y1!,
                 Text(
-                  "Muhammad",
+                  "Vasanth",
                   style: AppText.h1!.copyWith(
                     fontFamily: 'Montserrat',
                     fontSize: AppDimensions.normalize(25),
                     fontWeight: FontWeight.w100,
                   ),
                 ),
-                Text(
-                  "Hamza",
-                  style: AppText.h1b!.copyWith(
-                    fontSize: AppDimensions.normalize(25),
-                    height: 1,
+                Padding(
+                  padding: const EdgeInsets.only(left: 60.0),
+                  child: Text(
+                    "kumar",
+                    style: AppText.h1b!.copyWith(
+                      fontSize: AppDimensions.normalize(25),
+                      height: 1,
+                    ),
                   ),
                 ),
                 EntranceFader(

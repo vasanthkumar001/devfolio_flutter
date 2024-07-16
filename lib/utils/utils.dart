@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:folio/sections/about/about.dart';
 import 'package:folio/sections/contact/contact.dart';
 import 'package:folio/sections/home/home.dart';
-import 'package:folio/sections/portfolio/portfolio.dart';
 import 'package:folio/sections/services/services.dart';
 import 'package:folio/widget/footer.dart';
 
@@ -17,11 +16,11 @@ class StaticUtils {
   // work
   static const String dsc = 'assets/work/dsc.png';
   static const String sastaticket = 'assets/work/st.png';
-  static const String university = 'assets/work/cui.png';
+  static const String fabc = 'assets/work/fabc.png';
   static const String fullterIsb = 'assets/work/flutterIsl.png';
 
   // services
-  static const String uiux = 'assets/services/ui.png';
+  static const String dapps = 'assets/services/rapid.png';
   static const String blog = 'assets/services/blog.png';
   static const String appDev = 'assets/services/app.png';
   static const String rapid = 'assets/services/rapid.png';
@@ -38,18 +37,18 @@ class StaticUtils {
   ];
 
   static const List<String> socialLinks = [
-    "https://facebook.com/mhmzdev",
-    "https://instagram.com/mhmzdev",
-    "https://twitter.com/mhmzdev",
-    "https://linkedin.com/in/mhmzdev",
-    "https://github.com/mhmzdev",
-    "https://mhmzdev.medium.com"
+    "https://www.facebook.com/thala.vasanth.14charsan",
+    "https://www.instagram.com/vasa_vibes_/?hl=en",
+    "https://x.com/vasa3010",
+    "https://www.linkedin.com/in/vasanth-kumar-055114248/",
+    "https://github.com/vasanthkumar001",
+    // "https://mhmzdev.medium.com"
   ];
 
   static const String resume =
       'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
 
-  static const String gitHub = 'https://github.com/mhmzdev';
+  static const String gitHub = 'https://github.com/vasanthkumar001';
 }
 
 class BodyUtils {
@@ -57,7 +56,7 @@ class BodyUtils {
     HomePage(),
     About(),
     Services(),
-    Portfolio(),
+    // Portfolio(),
     Contact(),
     Footer(),
   ];

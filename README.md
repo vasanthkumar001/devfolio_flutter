@@ -34,8 +34,7 @@ Is a multi-platform portfolio for developers available for mobile, windows and w
 📙 Article: https://mhamzadev.medium.com/folio-responsive-portfolio-using-flutter-2-0-86ae3e6cce4f
 
 
-## 🔑 License
-- This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
+
 
 ## 🧑 Author
 

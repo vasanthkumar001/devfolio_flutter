@@ -6,7 +6,7 @@ import 'package:folio/widget/custom_text_heading.dart';
 import 'package:folio/widget/project_card.dart';
 
 class ContactMobileTab extends StatelessWidget {
-  const ContactMobileTab({Key? key}) : super(key: key);
+  const ContactMobileTab({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class ContactMobileTab extends StatelessWidget {
         CarouselSlider.builder(
           itemCount: 3,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
-            padding: const EdgeInsets.symmetric(vertical: 10.0),
+            padding: const EdgeInsets.symmetric(vertical: 0.0),
             child: ProjectCard(
               projectIconData: ContactUtils.contactIcon[i],
               projectTitle: ContactUtils.titles[i],
